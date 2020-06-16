@@ -16,7 +16,6 @@ a {
 
 header {
   width: 100vw;
-  height: 50px;
 }
 
 nav {
@@ -25,12 +24,12 @@ nav {
 }
 
 .nav-links {
-  width:46%;
+  width: 46%;
   font-weight: bold;
   margin-left: 4em;
 }
 
-.flex-center{
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -48,7 +47,7 @@ nav {
   padding: 0 0.7em;
 }
 
-.more{
+.more {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0.9em 1.1em;
   border-radius: 14px;
@@ -93,4 +92,80 @@ nav input::placeholder {
   font-size: 1.5em;
   font-weight: 700;
   margin-left: 0.5em;
+}
+
+.red-bg {
+  background-color: red;
+  padding: 0 5vw;
+}
+
+.red-bg h2 {
+  padding: 2.5em 0.4em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+.red-bg h2 span {
+  background-color: #fff;
+  color: black;
+  padding: 0.3em;
+  font: normal normal bold 38.2661px/57.3992px Mija;
+}
+
+.latest {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.latest article {
+  font: normal normal bold 45.04px/54.048px Mija;
+  margin-bottom: 10%;
+}
+
+.author-img {
+  width: 50px;
+  height: 50px;
+  border: 4px solid whitesmoke;
+  border-radius: 10px;
+  background-color: gray;
+  margin-right: 20px;
+}
+.div-flex {
+  display: flex;
+}
+
+.div-flex small {
+  font: italic normal normal 30px/54.048px Mija;
+}
+
+.white-bg {
+  padding: 40px 5vw;
+}
+
+.white-bg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.white-bg article p {
+  color: gray;
+}
+
+.white-bg article p a {
+  color: black;
+  text-decoration: underline;
+}
+
+.white-bg article h1 {
+  margin-top: 0.3em;
+  color: black;
+  font: normal normal 700 27.3703px/32.8444px Mija;
+}
+
+.margin-top-bottom {
+  margin: 20px 0;
+  font: normal normal 700 16.3269px/18.7759px Mija;
 }

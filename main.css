@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 50px;
+}
+
+nav {
+  padding: 1.3em 2em;
+  background-color: #d33a2c;
+}
+
+.nav-links {
+  width:46%;
+  font-weight: bold;
+  margin-left: 4em;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+
+.nav-link {
+  font-weight: 700;
+  line-height: 35.0236px;
+  font-size: 21.429px;
+  padding: 0 0.7em;
+}
+
+.more{
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.9em 1.1em;
+  border-radius: 14px;
+}
+
+.more a {
+  font-size: 21.429px;
+  font-weight: 700;
+}
+
+.more svg {
+  width: 25px;
+  margin-left: 5px;
+}
+
+.search {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 1.2em 1em;
+}
+
+.search i {
+  font-size: 21.8486px;
+  font-weight: 700;
+  line-height: 25.1259px;
+  color: #d33a2c;
+  margin-right: 0.7em;
+}
+
+nav input {
+  width: 100%;
+  height: 4vh;
+  border: none;
+  position: relative;
+  color: #000;
+}
+
+nav input::placeholder {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-left: 0.5em;
+}

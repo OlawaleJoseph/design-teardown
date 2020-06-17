@@ -13,7 +13,7 @@ Design Tear down of smashing tv.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/OlawaleJoseph/design-teardown/539a5721ffa1f8dac2d1e5a93c0d7c652b07f2ce/index.html)
+[Live Demo Link](https://rawcdn.githack.com/OlawaleJoseph/design-teardown/a7ed394f165ba70361e63d36c6048ec773330a5d/index.html)
 
 ## Authors
 

@@ -151,13 +151,10 @@ nav input::placeholder {
 }
 
 .white-bg {
-  padding: 40px 5vw;
-}
-
-.white-bg {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+  padding: 40px 5vw;
 }
 
 article p {
@@ -296,7 +293,7 @@ article h1 {
 
 .yearly-person {
   width: 80%;
-  margin: 1em auto;
+  margin: 1em auto 6em;
 }
 
 .yearly-img-cont {
@@ -304,18 +301,27 @@ article h1 {
 }
 
 .yearly-img {
-  
   border: 5px solid red;
   border-radius: 7px;
   margin-top: 5em;
   min-height: 20vh;
 }
 
+.yearly-img-cont1 {
+  width: 40%;
+}
+
+.yearly-img1 {
+  border: 5px solid red;
+  border-radius: 7px;
+  margin-top: 0.5em;
+}
+
 .person-info {
   padding: 2em 1em;
 }
 .person-info p,
-.person-info h5{
+.person-info h5 {
   width: 100%;
   color: #000;
   line-height: 2rem;
@@ -323,7 +329,7 @@ article h1 {
   font-weight: 200;
 }
 
-.person-info h5{
+.person-info h5 {
   text-transform: uppercase;
   color: #777;
   font-size: 1.1rem;
@@ -331,7 +337,7 @@ article h1 {
 }
 
 .person-info p,
-.inline-link{
+.inline-link {
   color: #333;
   font-size: 20.4036px;
   text-align: justify;
@@ -340,15 +346,84 @@ article h1 {
 .white-bg-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  padding: 2em 5em;
+  gap: 6em;
+  padding: 40px 5vw;
 }
 
 .white-bg-1 article {
   display: flex;
 }
 
-.white-bg-1 article div p:nth-child(2){
-  font-size: 1.5em;
-  line-height: 1.2em;
+.white-bg-1 article div h1 {
+  margin: 0.5em 0;
+  color: black;
+  font: normal normal 700 32.4px/38.8444px Mija;
+}
+
+.white-bg-1-text {
+  font: normal normal 700 19.8077px/22.7789px Mija;
+  color: rgb(102, 102, 102);
+}
+
+.white-bg-1-text a {
+  font: normal normal 700 19.8077px/22.7789px Mija;
+  color: rgb(102, 102, 102);
+}
+
+.white-bg-1-text1 {
+  font: normal normal 400 20.4086px/33.4929px Elena;
+}
+.white-bg-1-text1 a {
+  font: normal normal 400 20.4086px/33.4929px Elena;
+  color: rgb(0, 111, 198);
+}
+
+.date {
+  font: normal normal 400 18.3677px/33.4929px Elena;
+  color: gray;
+}
+
+.featured {
+  width: 100%;
+  background-color: #d33a2c;
+  padding: 40px 5vw;
+  color: #fff;
+}
+
+.red-bg-1-text {
+  font: normal normal 700 16.3269px/18.7759px Elena;
+  color: white;
+}
+
+.featured h1 {
+  margin: 0.5em 0;
+  color: white;
+  font: normal normal 700 49.04px/58.848px Mija;
+}
+
+.featured button,
+.guide-btn {
+  background-color: #fff;
+  padding: 0.8em 1.5em;
+  border: none;
+  border-radius: 14px;
+  color: #267dcc;
+  font-size: 1.2em;
+  display: block;
+  margin: 0.8em 0;
+  margin-right: auto;
+}
+
+.guide-heading {
+  margin: 0.5em 0;
+  color: rgb(25, 169, 114);
+  font: normal normal 700 49.04px/58.848px Mija;
+}
+
+.guide-btn {
+  background-color: rgb(25, 169, 114);
+  color: white;
+}
+.guide {
+  color: rgb(102, 102, 102);
 }

@@ -106,10 +106,12 @@ nav input::placeholder {
 
 .red-bg {
   background-color: #777;
-  padding: 0 5vw;
+  position: relative;
 }
 
 .red-bg h2 {
+  position: absolute;
+  left: 33%;
   padding: 2.5em 0.4em;
   line-height: 1.5em;
   margin: 0 auto;
@@ -126,7 +128,7 @@ nav input::placeholder {
 }
 
 article p {
-  color: gray;
+  color: #333;
 }
 
 .latest {
@@ -177,7 +179,21 @@ article p {
 
 .latest article {
   font: normal normal bold 45.04px/54.048px Mija, sans-serif;
-  margin-bottom: 10%;
+  padding: 3em 2em;
+}
+
+.latest article:nth-child(1) {
+  background-color: #ccc;
+  padding-top: 5em;
+}
+
+.latest article:nth-child(2) {
+  background-color: #333;
+  padding-top: 5em;
+}
+
+.latest article:nth-child(4) {
+  background-color: #999;
 }
 
 .author-img,
@@ -205,7 +221,7 @@ article p {
   padding: 40px 5vw;
 }
 
-article h1 {
+article h3 {
   margin-top: 0.3em;
   color: black;
   font: normal normal 700 27.3703px/32.8444px Mija, sans-serif;
@@ -363,13 +379,13 @@ article h1 {
   display: flex;
 }
 
-.featured h1 {
+.featured h3 {
   margin: 0.5em 0;
   color: white;
   font: normal normal 700 49.04px/58.848px Mija, sans-serif;
 }
 
-.white-bg-1 article div h1 {
+.white-bg-1 article div h3 {
   margin: 0.5em 0;
   color: black;
   font: normal normal 700 32.4px/38.8444px Mija, sans-serif;

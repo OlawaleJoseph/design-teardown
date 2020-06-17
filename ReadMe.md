@@ -25,6 +25,12 @@ Design Tear down of smashing tv.
 
 - Github: [@githubhandle](https://github.com/OlawaleJoseph)
 
+## Testing
+
+- Clone this repo
+- cd into the cloned repo
+- Open the index.html file on google chrome browser or any anyother browser
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!

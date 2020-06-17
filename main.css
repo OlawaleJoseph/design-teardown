@@ -182,6 +182,10 @@ article p {
   padding: 3em 2em;
 }
 
+.white-bg-1 article {
+  display: flex;
+}
+
 .latest article:nth-child(1) {
   background-color: #ccc;
   padding-top: 5em;
@@ -373,10 +377,6 @@ article h3 {
   grid-template-columns: repeat(2, 1fr);
   gap: 6em;
   padding: 40px 5vw;
-}
-
-.white-bg-1 article {
-  display: flex;
 }
 
 .featured h3 {

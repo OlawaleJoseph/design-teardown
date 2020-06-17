@@ -25,7 +25,7 @@ header {
 
 nav {
   padding: 1.3em 2em;
-  background-color: #d33a2c;
+  background-color: #333;
 }
 
 .nav-links {
@@ -58,6 +58,11 @@ nav {
   border-radius: 14px;
 }
 
+article p a {
+  color: black;
+  text-decoration: underline;
+}
+
 .more a {
   font-size: 21.429px;
   font-weight: 700;
@@ -81,7 +86,7 @@ nav {
   font-size: 21.8486px;
   font-weight: 700;
   line-height: 25.1259px;
-  color: #d33a2c;
+  color: #333;
   margin-right: 0.7em;
 }
 
@@ -100,7 +105,7 @@ nav input::placeholder {
 }
 
 .red-bg {
-  background-color: red;
+  background-color: #777;
   padding: 0 5vw;
 }
 
@@ -112,11 +117,16 @@ nav input::placeholder {
   font-weight: 700;
   text-align: center;
 }
+
 .red-bg h2 span {
   background-color: #fff;
   color: black;
   padding: 0.3em;
-  font: normal normal bold 38.2661px/57.3992px Mija;
+  font: normal normal bold 38.2661px/57.3992px Mija, sans-serif;
+}
+
+article p {
+  color: gray;
 }
 
 .latest {
@@ -124,12 +134,49 @@ nav input::placeholder {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.smashing-tv p {
+  font-size: 1.3em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.clicks p {
+  font-family: Elena Arial, Helvetica, sans-serif;
+  font-size: 16.3269px;
+  font-weight: 700;
+  line-height: 18.7759px;
+  width: 42%;
+  margin: 2em auto;
+}
+
+.person-info p,
+.person-info h5 {
+  width: 100%;
+  color: #000;
+  line-height: 2rem;
+  text-align: left;
+  font-weight: 200;
+}
+
+.person-info p,
+.inline-link {
+  color: #333;
+  font-size: 20.4036px;
+  text-align: justify;
+}
+
+.footer-info p {
+  line-height: 1.2em;
+  padding: 1.5em 0.7em;
+  font-size: 1.2em;
+}
+
 .latest article p {
   color: #fff;
 }
 
 .latest article {
-  font: normal normal bold 45.04px/54.048px Mija;
+  font: normal normal bold 45.04px/54.048px Mija, sans-serif;
   margin-bottom: 10%;
 }
 
@@ -142,12 +189,13 @@ nav input::placeholder {
   background-color: gray;
   margin-right: 20px;
 }
+
 .div-flex {
   display: flex;
 }
 
 .div-flex small {
-  font: italic normal normal 30px/54.048px Mija;
+  font: italic normal normal 30px/54.048px Mija, sans-serif;
 }
 
 .white-bg {
@@ -157,24 +205,15 @@ nav input::placeholder {
   padding: 40px 5vw;
 }
 
-article p {
-  color: gray;
-}
-
-article p a {
-  color: black;
-  text-decoration: underline;
-}
-
 article h1 {
   margin-top: 0.3em;
   color: black;
-  font: normal normal 700 27.3703px/32.8444px Mija;
+  font: normal normal 700 27.3703px/32.8444px Mija, sans-serif;
 }
 
 .margin-top-bottom {
   margin: 20px 0;
-  font: normal normal 700 16.3269px/18.7759px Mija;
+  font: normal normal 700 16.3269px/18.7759px Mija, sans-serif;
 }
 
 .hero {
@@ -195,7 +234,7 @@ article h1 {
 
 .smashing-tv {
   width: 100%;
-  background-color: red;
+  background-color: #999;
 }
 
 #tv-img {
@@ -212,19 +251,12 @@ article h1 {
   font-size: 1.8em;
 }
 
-.smashing-tv p {
-  margin-top: 1em;
-  font-size: 1.3em;
-  width: 50%;
-  margin: 0 auto;
-}
-
 .btn {
   background-color: #fff;
   padding: 0.8em 1.5em;
   border: none;
   border-radius: 14px;
-  color: #267dcc;
+  color: #000;
   font-size: 1.2em;
   display: block;
   margin: 0.8em auto;
@@ -241,10 +273,11 @@ article h1 {
 .latest-article-link {
   width: 100%;
   margin: 4em 0;
+  text-align: center;
 }
 
 .latest-article-link a {
-  border-bottom: 7px solid #d33a2c;
+  border-bottom: 7px solid #000;
   text-align: center;
   margin: auto;
   color: black;
@@ -253,18 +286,9 @@ article h1 {
 
 .clicks {
   width: 100%;
-  background-color: rgb(57, 143, 209);
+  background-color: #444;
   padding: 2em 0;
   color: #fff;
-}
-
-.clicks p {
-  font-family: Elena Arial, Helvetica, sans-serif;
-  font-size: 16.3269px;
-  font-weight: 700;
-  line-height: 18.7759px;
-  width: 42%;
-  margin: 2em auto;
 }
 
 .clicks a {
@@ -273,7 +297,7 @@ article h1 {
   font-weight: 700;
   line-height: 64.7328px;
   margin: 3em auto;
-  border-bottom: 5px solid #4399d9;
+  border-bottom: 5px solid #000;
 }
 
 .clicks p:nth-child(2) {
@@ -301,7 +325,7 @@ article h1 {
 }
 
 .yearly-img {
-  border: 5px solid red;
+  border: 5px solid #000;
   border-radius: 7px;
   margin-top: 5em;
   min-height: 20vh;
@@ -312,7 +336,7 @@ article h1 {
 }
 
 .yearly-img1 {
-  border: 5px solid red;
+  border: 5px solid #000;
   border-radius: 7px;
   margin-top: 0.5em;
 }
@@ -320,27 +344,12 @@ article h1 {
 .person-info {
   padding: 2em 1em;
 }
-.person-info p,
-.person-info h5 {
-  width: 100%;
-  color: #000;
-  line-height: 2rem;
-  text-align: left;
-  font-weight: 200;
-}
 
 .person-info h5 {
   text-transform: uppercase;
   color: #777;
   font-size: 1.1rem;
   margin-bottom: 1em;
-}
-
-.person-info p,
-.inline-link {
-  color: #333;
-  font-size: 20.4036px;
-  text-align: justify;
 }
 
 .white-bg-1 {
@@ -354,51 +363,52 @@ article h1 {
   display: flex;
 }
 
+.featured h1 {
+  margin: 0.5em 0;
+  color: white;
+  font: normal normal 700 49.04px/58.848px Mija, sans-serif;
+}
+
 .white-bg-1 article div h1 {
   margin: 0.5em 0;
   color: black;
-  font: normal normal 700 32.4px/38.8444px Mija;
+  font: normal normal 700 32.4px/38.8444px Mija, sans-serif;
 }
 
 .white-bg-1-text {
-  font: normal normal 700 19.8077px/22.7789px Mija;
+  font: normal normal 700 19.8077px/22.7789px Mija, sans-serif;
   color: rgb(102, 102, 102);
 }
 
 .white-bg-1-text a {
-  font: normal normal 700 19.8077px/22.7789px Mija;
+  font: normal normal 700 19.8077px/22.7789px Mija, sans-serif;
   color: rgb(102, 102, 102);
 }
 
 .white-bg-1-text1 {
-  font: normal normal 400 20.4086px/33.4929px Elena;
+  font: normal normal 400 20.4086px/33.4929px Elena, sans-serif;
 }
+
 .white-bg-1-text1 a {
-  font: normal normal 400 20.4086px/33.4929px Elena;
-  color: rgb(0, 111, 198);
+  font: normal normal 400 20.4086px/33.4929px Elena, sans-serif;
+  color: #000;
 }
 
 .date {
-  font: normal normal 400 18.3677px/33.4929px Elena;
+  font: normal normal 400 18.3677px/33.4929px Elena, sans-serif;
   color: gray;
 }
 
 .featured {
   width: 100%;
-  background-color: #d33a2c;
+  background-color: #888;
   padding: 40px 5vw;
   color: #fff;
 }
 
 .red-bg-1-text {
-  font: normal normal 700 16.3269px/18.7759px Elena;
+  font: normal normal 700 16.3269px/18.7759px Elena, sans-serif;
   color: white;
-}
-
-.featured h1 {
-  margin: 0.5em 0;
-  color: white;
-  font: normal normal 700 49.04px/58.848px Mija;
 }
 
 .featured button,
@@ -407,7 +417,7 @@ article h1 {
   padding: 0.8em 1.5em;
   border: none;
   border-radius: 14px;
-  color: #267dcc;
+  color: #000;
   font-size: 1.2em;
   display: block;
   margin: 0.8em 0;
@@ -416,14 +426,70 @@ article h1 {
 
 .guide-heading {
   margin: 0.5em 0;
-  color: rgb(25, 169, 114);
-  font: normal normal 700 49.04px/58.848px Mija;
+  color: #888;
+  font: normal normal 700 49.04px/58.848px Mija, sans-serif;
 }
 
 .guide-btn {
-  background-color: rgb(25, 169, 114);
+  background-color: #333;
   color: white;
 }
+
 .guide {
   color: rgb(102, 102, 102);
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 1.5em 2em;
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer-header {
+  margin: 3em 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  flex-wrap: wrap;
+  list-style-type: disc;
+  margin: 1.5em auto;
+  text-align: center;
+}
+
+.footer-links li {
+  margin: 0.2em 0.8em;
+  line-height: 3em;
+}
+
+.more-footer-links a {
+  margin: 0.5em 1.2em;
+}
+
+.footer-links li a {
+  font-size: 1.5em;
+}
+
+.footer-flex {
+  width: 60%;
+  justify-content: center;
+  align-items: baseline;
+  margin: 1em auto;
+}
+
+.footer-img {
+  width: 150px;
+  align-self: flex-end;
+}
+
+.footer-info p span {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
 }
